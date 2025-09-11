@@ -19,4 +19,4 @@ for char in range(1, nr_numbers + 1):
 password_list = list(password)
 random.shuffle(password_list)   
 final_password = "".join(password_list)
-print(f"Your password is: {final_password}");
+print(f"Your password is: {final_password}")
